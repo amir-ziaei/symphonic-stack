@@ -10,10 +10,6 @@ processes = []
   allowed_public_ports = []
   auto_rollback = true
 
-[mounts]
-  source = "data"
-  destination = "/data"
-
 [[services]]
   internal_port = 8080
   processes = ["app"]
