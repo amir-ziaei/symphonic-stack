@@ -7,13 +7,9 @@ pnpm-lock.yml
 
 node_modules
 
+/.cache
 /build
 /public/build
 .env
 
-/cypress/screenshots
-/cypress/videos
-/prisma/data.db
-/prisma/data.db-journal
-
-/app/styles/tailwind.css
+/app/styles/app.css
